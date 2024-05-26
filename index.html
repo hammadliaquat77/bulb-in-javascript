@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--     
+
+    First Method -->
+
+<!--     
+    <img src="image/1.png" alt="" id="image">
+    <button onclick="OFF()">OFF</button>
+    <button onclick="ON()">ON</button>  -->
+
+
+
+<!--     
+
+    2nd Method -->
+
+  <!-- <button onclick="on()" >ON</button>
+<button onclick="off()" >OFF</button>  -->
+
+<!-- <button id="btn">ON</button> -->
+
+
+
+<!--     
+
+    3rd Method -->
+
+
+<img id="img" src="image/1.png" alt=""> 
+
+
+<label class="switch">
+    <input class="chk" id="btn" type="checkbox">
+    <span class="slider"></span>
+  </label> 
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+// var img = document.getElementById('img')
+// var btn = document.getElementById('btn')
+
+// var flag = 'off'
+
+
+// btn.addEventListener('click', function changeImg(){
+//     console.log('hjg');
+// if(flag == 'off'){
+//     img.src = 'img/on.png'  
+//     btn.innerText= 'OFF'
+//     flag = 'on'
+// }
+// else{
+//     img.src = 'img/off.png'
+//     btn.innerText= 'ON'
+//     flag = 'off'
+// }
+
+// }) -->
+
+
+
+
+<!-- 
+// var str = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum doloribus reprehenderit impedit aperiam vero harum atque laboriosam sed asperiores eligendi repellendus quas natus quo minima ratione, fugit earum porro tempore. Quae odio facere ipsa eaque repellat dolorum omnis accusantium excepturi quia tenetur nisi qui a, veritatis provident rerum quas aspernatur saepe molestiae perferendis id natus nam? Voluptatem ducimus nihil vitae at soluta esse, facere numquam, doloribus, sequi temporibus ab molestiae accusantium libero enim harum non dignissimos eligendi et. Eos non dolore exercitationem similique, soluta possimus rerum natus consectetur alias, beatae reprehenderit recusandae nemo libero vel asperiores distinctio perferendis, ducimus minima quod? Illum voluptatem iste expedita beatae, ullam nemo, ducimus rem hic dolor eveniet natus architecto corporis earum aspernatur a in impedit qui. Iste doloribus deserunt labore? Officia quo autem exercitationem laudantium eveniet facere soluta. Explicabo aspernatur, harum consequuntur, quam a accusantium pariatur impedit similique voluptas vel repudiandae, maxime suscipit aperiam. Doloribus numquam animi impedit nostrum facilis eius exercitationem eos itaque placeat? Voluptas illo eum quos quo cum unde vel, asperiores dolores a provident facere porro ullam similique quisquam, consectetur doloribus architecto natus corporis recusandae accusamus ducimus ipsam expedita ad sunt. Sit earum mollitia sed dolorem perspiciatis rerum reprehenderit nulla fuga?'
+// var msg = document.getElementById('para')
+
+// if(str.length <= 500 ){
+//     msg.innerText= str
+
+// }else{
+//     msg.innerText=str.slice(0,100);
+//     <button>See more</button>
+// } -->
+
+
+
+<!-- 
+var str = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum doloribus reprehenderit impedit aperiam vero harum atque laboriosam sed asperiores eligendi repellendus quas natus quo minima ratione, fugit earum porro tempore. Quae odio facere ipsa eaque repellat dolorum omnis accusantium excepturi quia tenetur nisi qui a, veritatis provident rerum quas aspernatur saepe molestiae perferendis id natus nam? Voluptatem ducimus nihil vitae at soluta esse, facere numquam, doloribus, sequi temporibus ab molestiae accusantium libero enim harum non dignissimos eligendi et. Eos non dolore exercitationem similique, soluta possimus rerum natus consectetur alias, beatae reprehenderit recusandae nemo libero vel asperiores distinctio perferendis, ducimus minima quod? Illum voluptatem iste expedita beatae, ullam nemo, ducimus rem hic dolor eveniet natus architecto corporis earum aspernatur a in impedit qui. Iste doloribus deserunt labore? Officia quo autem exercitationem laudantium eveniet facere soluta. Explicabo aspernatur, harum consequuntur, quam a accusantium pariatur impedit similique voluptas vel repudiandae, maxime suscipit aperiam. Doloribus numquam animi impedit nostrum facilis eius exercitationem eos itaque placeat? Voluptas illo eum quos quo cum unde vel, asperiores dolores a provident facere porro ullam similique quisquam, consectetur doloribus architecto natus corporis recusandae accusamus ducimus ipsam expedita ad sunt. Sit earum mollitia sed dolorem perspiciatis rerum reprehenderit nulla fuga?'
+// var str = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum doloribus reprehenderit impedit aperiam vero harum atque laboriosam sed asperiores eligendi repellendus quas natus quo minima ratione, fugit earum porro tempore. Quae odio facere ipsa eaque repellat dolorum omnis accusantium excepturi quia tenetur nisi qui a,'
+var msg = document.getElementById('para');
+console.log(str.length);
+
+if(str.length <= 500){
+    msg.innerText= str
+}
+else{
+    // msg.innerText= str.slice(0,500)
+    msg.innerHTML = ${str.slice(0,500)} <button id='btn'>See More</button>
+
+var button= document.getElementById('btn')
+
+button.addEventListener('click' , function(){
+    msg.innerHTML= ${str} <button id='btn'>See Less</button>
+})
+}
+  -->
+
+
+
+
+    <script src="App.js"></script>
+
+</body>
+</html>
